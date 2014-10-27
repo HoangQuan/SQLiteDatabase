@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sqlitedatabase.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to create contracts" />
+    <Button 
+        android:id="@+id/btn_create_contract"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Creat contract"/>
+    <Button 
+        android:id="@+id/show_contracts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Contracts"/>
+    <Button 
+        android:id="@+id/update_contract"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Update first Contract"/>
+    <Button 
+        android:id="@+id/delete_contract"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete first Contract"/>
+
+</LinearLayout>
